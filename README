@@ -1,0 +1,16 @@
+This is the small project that uses the data from the database and creates the plot in a website.
+
+This repository is a hands-on exercise to learn Docker by containerizing a small web app that reads data from a database and displays a plot.
+
+Quick start:
+- Build the image:
+    ```
+    docker build -t simple-analysis-web .
+    ```
+- Run the container:
+    ```
+    docker run --rm -p 8000:8000 simple-analysis-web
+    ```
+- Open http://localhost:8000 to view the plot.
+
+Adjust the database connection and ports in the project config as needed for your environment.
